@@ -1,0 +1,13 @@
+#!/bin/sh
+
+mustache - src/about.html < template/index.en.yml > out/v3/en/about.html
+mustache - src/designs.html < template/index.en.yml > out/v3/en/designs.html
+mustache - src/faq.html < template/index.en.yml > out/v3/en/faq.html
+mustache - src/index.html < template/index.en.yml > out/v3/en/index.html
+mustache - src/intro.html < template/index.en.yml > out/v3/en/intro.html
+
+mustache - src/about.html < template/index.es.yml > out/v3/es/about.html
+mustache - src/designs.html < template/index.es.yml > out/v3/es/designs.html
+mustache - src/faq.html < template/index.es.yml > out/v3/es/faq.html
+mustache - src/index.html < template/index.es.yml > out/v3/es/index.html
+mustache - src/intro.html < template/index.es.yml > out/v3/es/intro.html

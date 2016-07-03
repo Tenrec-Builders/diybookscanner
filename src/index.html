@@ -1,0 +1,101 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>{{index-title}}</title>
+  <link rel="stylesheet" href="/v3/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/v3/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/v3/css/main.css">
+  <script src="/v3/js/jquery.js"></script>
+  <script src="/v3/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    {{#navigation}}
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+	<div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">{{toggle}}</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+	</div>
+	<div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="active"><a href="#">{{home}}</a></li>
+            <li><a href="intro.html">{{getting-started}}</a></li>
+            <li><a href="faq.html">{{faq}}</a></li>
+            <li><a href="designs.html">{{designs}}</a></li>
+            <li><a href="about.html">{{about}}</a></li>
+            <li><a href="http://diybookscanner.org/forum">{{forum}}</a></li>
+          </ul>
+	  <ul class="nav navbar-nav navbar-right">
+	    <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{language}} <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+		<li><a href="/index.html">English</a></li>
+		<li><a href="/es/index.html">Español</a></li>
+              </ul>
+            </li>
+	  </ul>
+	</div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    {{/navigation}}
+
+    <div class="main-header">
+      {{#index-header}}
+      <div class="page-header">
+	<h1>{{title}}</h1>
+      </div>
+      <p>{{{text}}}</p>
+      {{/index-header}}
+    </div>
+
+    <div class="news-body">
+      <h1>{{index-news-heading}}</h1>
+      <div class="row">
+        {{#index-news}}
+	<div class="col-md-6 centered-column">
+	  <div class="news-item">
+	    <h3>{{title}}</h3>
+	    {{{media}}}
+	    <p>{{{text}}}</p>
+	  </div>
+	</div>
+        {{/index-news}}
+      </div>
+    </div>
+
+    <div class="home-body">
+      {{#index-body-header}}
+      <h1>{{title}}</h1>
+      <p>{{{text}}}</p>
+      {{/index-body-header}}
+      <div>
+	<div class="example">
+	  <img src="{{scanner-design-url}}" width="600" height="750">
+	  <ul class="list-group">
+            {{#index-body}}
+	    <li class="list-group-item">
+	      <div class="row">
+		<div class="col-md-3"><h2>{{title}}</h2></div>
+		<div class="col-md-9 explained"><p>{{{text}}}</p></div>
+	      </div>
+	    </li>
+            {{/index-body}}
+	  </ul>
+	</div>
+      </div>
+
+    <a href="intro.html" class="btn btn-lg btn-block big-button">{{index-action}}</a>
+
+    <br/>
+
+    </div>
+
+  </div>
+</body>
+</html>

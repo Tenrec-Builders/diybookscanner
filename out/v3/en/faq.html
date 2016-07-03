@@ -1,0 +1,162 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>DIY Book Scanner FAQ</title>
+  <link rel="stylesheet" href="/v3/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/v3/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/v3/css/main.css">
+  <script src="/v3/js/jquery.js"></script>
+  <script src="/v3/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+	<div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+	</div>
+	<div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="intro.html">Getting Started</a></li>
+            <li class="active"><a href="#">FAQ</a></li>
+            <li><a href="designs.html">Designs</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="http://diybookscanner.org/forum">Forum</a></li>
+          </ul>
+	  <ul class="nav navbar-nav navbar-right">
+	    <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+		<li><a href="/faq.html">English</a></li>
+		<li><a href="/es/faq.html">Español</a></li>
+              </ul>
+            </li>
+	  </ul>
+	</div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <h1 class="main-heading">Frequently Asked Questions</h1>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1>Why not just cut the binding off and use a feed scanner?</h1>
+      </div>
+      <div class="panel-body">
+        <p>This is almost certainly the fastest way to scan a book. While many in the community prefer more gentle methods, others share tips and techniques for <a href="http://diybookscanner.org/forum/viewforum.php?f=30">destructive scanning</a> here.</p>
+
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1>What about a completely automated scanner?</h1>
+      </div>
+      <div class="panel-body">
+        <p>
+  This is an area of active research. A few people have come up with impressive looking prototypes.
+</p>
+<div>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/Vx-jreooO9g" frameborder="0" allowfullscreen></iframe>
+  <p>This design was posted by <strong>jck57</strong> at <a href="http://diybookscanner.org/forum/viewtopic.php?f=14&t=2776">this forum thread</a>.</p>
+</div>
+<div>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/pkZ8OfgRig0" frameborder="0" allowfullscreen></iframe>
+  <p>This design was posted by <strong>moose</strong> at <a href="http://diybookscanner.org/forum/viewtopic.php?f=14&t=3125">this forum thread</a>.</p>
+</div>
+<p>You should also take a look at Google's <a href="https://code.google.com/p/linear-book-scanner/">linear book scanner</a> as a possible solution.</p>
+<p>
+  If you have more ideas about how to solve this difficult problem or want to show off your own design, please post it in the forum.
+</p>
+
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1>Can&#39;t we just leave it to Google and the Internet Archive?</h1>
+      </div>
+      <div class="panel-body">
+        <p>
+  No. These large organizations have limited resources which they will devote to their own priorities. If you want a digital copy of your great aunt's recipe book, scanning it is up to you.
+</p>
+
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1>Am I legally allowed to scan my books?</h1>
+      </div>
+      <div class="panel-body">
+        <p>
+  We don't know. Some books are in the public domain or are personal documents. Others are copyrighted and fair use laws differ from country to country. You alone are responsible for learning and observing the laws in your jurisdiction.
+</p>
+
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1>What cameras should I use?</h1>
+      </div>
+      <div class="panel-body">
+        <p>
+  The current camera recommendation is Canon PowerShot ELPH 160. These are 20MP cameras which work with <a href="http://github.com/Tenrec-Builders/pi-scan">Pi Scan</a> and are still being manufactured.
+</p>
+<p>
+  But any camera which work with your budget and your rig is just as good. For a more complete discussion of what properties you should look for in a prospective camera, read the 'Picking Cameras' section of the <a href="intro.html">Getting Started page</a>.
+</p>
+
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1>Can I use my phone camera or a webcam?</h1>
+      </div>
+      <div class="panel-body">
+        <p>While you can use whatever you want, consider that it might not be a good idea to use such cameras. Although phone cameras are getting better every day, they still lack much of the control that we can get from CHDK-enabled compacts. Most do not support a remote control protocol like PTP.</p>
+
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1>Do I really need two cameras?</h1>
+      </div>
+      <div class="panel-body">
+        <p>The main advantage of using a single camera is avoiding the expense of purchasing two cameras. Another reason to consider using a single camera is that you have a lot more options when controlling the camera. Many cameras have remote capture software or accessories out of the box.</p>
+<p>Though these advantages are sometimes compelling, we recommend that you scan with two cameras in most cases. While it is possible to set up a rig that uses just one camera, it is usually not a good trade-off.</p>
+<p>One kind of single-camera setup has the camera taking a picture of one page at a time. The downside of this is that you are scanning at half the speed. To scan a whole book, you must flip through the pages once for every odd page. Then you have to turn the book around and flip through the pages once for every even page. Afterwards, the images you have taken are not ordered properly and so must be collated during post-processing.</p>
+<p>Another kind of single-camera rig has a single camera capture both pages of a book at once. The problem here is that this only works if you hold the book flat on a table which means that you are causing a lot of wear and tear on the spine. In addition, there will be unavoidable page curl in the resulting images, especially near the gutter. While there are algorithmic techniques for dewarping the page after capture, these techniques only work on some pages and tend to be unreliable.</p>
+
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1>I want to scan very large books</h1>
+      </div>
+      <div class="panel-body">
+        <p>
+  When scanning books over 400mm tall or 350mm wide, special techniques are required. There is no cut and dried solution yet, but several forum threads explore possible answers. See <a href="http://diybookscanner.org/forum/viewtopic.php?f=14&t=3240">here</a> and <a href="http://diybookscanner.org/forum/viewtopic.php?f=14&t=2976">here</a> for some ideas.
+</p>
+
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1>I&#39;m a klutz. Can I still make a book scanner?</h1>
+      </div>
+      <div class="panel-body">
+        <p>
+  Not everyone wants to spend years designing a book scanner or months building one. If you want to get started scanning on your own right away, you might find that <a href="http://store.diybookscanner.org">buying a kit</a> is the best option.
+</p>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

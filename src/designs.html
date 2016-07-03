@@ -1,0 +1,219 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>{{designs-title}}</title>
+  <link rel="stylesheet" href="/v3/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/v3/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/v3/css/main.css">
+  <script src="/v3/js/jquery.js"></script>
+  <script src="http://tenrec.builders/js/underscore-min.js"></script>
+  <script src="/v3/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    {{#navigation}}
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+	<div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">{{toggle}}</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+	</div>
+	<div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="index.html">{{home}}</a></li>
+            <li><a href="intro.html">{{getting-started}}</a></li>
+            <li><a href="faq.html">{{faq}}</a></li>
+            <li class="active"><a href="#">{{designs}}</a></li>
+            <li><a href="about.html">{{about}}</a></li>
+            <li><a href="http://diybookscanner.org/forum">{{forum}}</a></li>
+          </ul>
+	  <ul class="nav navbar-nav navbar-right">
+	    <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{language}} <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+		<li><a href="/designs.html">English</a></li>
+		<li><a href="/es/designs.html">Español</a></li>
+              </ul>
+            </li>
+	  </ul>
+	</div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    {{/navigation}}
+
+    <div class="showcase">
+      <h1>{{showcase-title}}</h1>
+<!--      <div style="width: 800px; height: 800px;"> -->
+      <div>
+	<div id="scanner-carousel" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators"></ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox"></div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#scanner-carousel" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">{{showcase-previous}}</span>
+	  </a>
+	  <a class="right carousel-control" href="#scanner-carousel" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">{{showcase-next}}</span>
+	  </a>
+	</div>
+      </div>
+    </div>
+
+    <div class="showcase showcase-gap">
+      <h1>{{design-history-title}}</h1>
+      <p class="lead">{{design-history-text}}</p>
+
+      {{#design-history-list}}
+      <div class="history">
+	<h2>{{title}}</h2>
+	<a href="{{url}}"><img width="800" src="{{image}}"></a>
+      </div>
+      {{/design-history-list}}
+
+    </div>
+
+  </div>
+
+<script>
+$(function () {
+
+  var pictures = {
+    '000': 'http://www.diybookscanner.org/archivist/',
+    '001': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3007',
+    '002': 'http://www.critiqueslibres.com/blog/?p=1625',
+    '003': 'http://www.instructables.com/id/Book-Scanner-Low-cost-easy-to-make-1000-pages-an-h/',
+    '004': 'http://diybookscanner.org/forum/viewtopic.php?f=14&t=2914&start=170#p18827',
+    '005': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=932#p9697',
+    '006': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=901',
+    '007': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=242',
+    '008': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=930',
+    '009': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=906',
+    '010': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=925',
+    '011': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=376&start=0',
+    '012': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=835',
+    '013': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=805',
+    '014': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=869',
+    '015': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=873',
+    '016': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=1031',
+    '017': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=752',
+    '018': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=774',
+    '019': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=491',
+    '020': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=813',
+    '021': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=842',
+    '022': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=669',
+    '023': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=562',
+    '024': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=123',
+    '025': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=2549',
+    '026': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=422',
+    '027': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=254&start=10',
+    '028': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=39',
+    '029': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=105',
+    '030': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=175',
+    '031': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=275',
+    '032': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=274',
+    '033': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=6',
+    '034': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=60',
+    '035': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=123',
+    '036': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=47',
+    '037': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=103',
+    '038': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=139',
+    '039': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=145',
+    '040': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=176',
+    '041': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=49',
+    '042': 'http://www.diybookscanner.org/public-domain-images-of-the-portable-book-scanner/',
+    '043': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=186',
+    '044': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=245',
+    '045': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=236',
+    '046': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=250',
+    '047': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=285',
+    '048': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=242',
+    '049': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=105',
+    '050': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=310',
+    '051': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=313',
+    '052': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=299',
+    '053': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=274',
+    '054': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=309',
+    '055': 'http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=262',
+    '056': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3164',
+    '057': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=2776',
+    '058': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3150',
+    '059': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=495',
+    '060': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3125',
+    '061': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3022',
+    '062': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=1192',
+    '063': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=2975',
+    '064': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3030',
+    '065': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3008',
+    '066': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=2821',
+    '067': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=2838',
+    '068': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=2799',
+    '069': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=2733',
+    '070': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=2752',
+    '071': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=869',
+    '072': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=1028',
+    '073': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=698',
+    '074': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3185',
+    '075': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3251',
+    '076': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3253',
+    '077': 'http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=3268',
+  };
+
+  var pictureKeys = _.keys(pictures);
+  var selected = Math.floor(Math.random()*pictureKeys.length);
+  for (var i = 0; i < pictureKeys.length; i += 1)
+  {
+/*
+    var indicator = $('<li>');
+    indicator.data('target', '#scanner-carousel');
+    indicator.data('slide-to', i);
+    if (selected === i)
+    {
+      indicator.addClass('active');
+    }
+    $('.carousel-indicators').append(indicator);
+*/
+
+    var item = $('<div class="item showcase-item"></div>');
+    if (selected === i)
+    {
+      item.addClass('active');
+    }
+    var link = $('<a></a>');
+    item.append(link);
+    link.attr('href', pictures[pictureKeys[i]]);
+    link.attr('target', '_blank');
+    var div = $('<img width="800" height="800" src="/v3/images/gallery/' +
+      pictureKeys[i] + '.jpg">');
+    link.append(div);
+/*
+    div.css('background-image', 'url("/v3/images/gallery/' + pictureKeys[i] + '.jpg")');
+    div.css('background-position', 'center');
+    div.css('background-size', 'contain');
+    div.css('background-repeat', 'no-repeat');
+    div.css('width', 600);
+    div.css('height', 600);
+    div.css('display', 'block');
+    div.css('margin-left', 'auto');
+    div.css('margin-right', 'auto');
+*/
+    $('.carousel-inner').append(item);
+  }
+
+  $('#scanner-carousel').carousel({ interval: 10000 });
+
+});
+</script>
+
+</body>
+</html>

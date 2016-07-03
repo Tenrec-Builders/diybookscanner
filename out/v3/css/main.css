@@ -1,0 +1,111 @@
+.main-header {
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #8B755D;
+  #background-image: url("http://diybookscanner.org/forum/styles/booky/theme/images/bg_header.gif");
+  #background-size: auto 100%;
+}
+
+.main-header a {
+  color: #cce;
+}
+
+.main-header a:hovoer {
+  color: #eee;
+}
+
+.navbar-nav li {
+  font-size: 18pt;
+  color: #eee;
+}
+
+.navbar-nav li .active {
+  color: #fff;
+}
+
+.navbar-right {
+  margin-right: 20px;
+}
+
+.news-body {
+  background-color: #EEE;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.home-body h1, .news-body h1 {
+  text-align: center;
+}
+
+.home-body .example {
+  text-align: center;
+  margin: 60px;
+}
+
+.showcase  h1 {
+  text-align: center;
+  font-size: 48pt;
+}
+
+.showcase-item {
+  background-color: black;
+}
+
+.showcase-item img, .showcase .history img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.showcase-gap {
+  margin-top: 40px;
+}
+
+.showcase .history {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.centered-column {
+  text-align: center;
+}
+
+.mini-header {
+  font-size: 16pt;
+}
+
+.big-button {
+  background-color: #9B755D;
+  color: #ddd;
+  font-size: 24pt;
+}
+
+.big-button:hover {
+  color: #fff;
+  background-color: #8B654D;
+}
+
+.explained {
+  text-align: left;
+}
+
+.explained img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1.main-heading {
+  text-align: center;
+  font-size: 48pt;
+}
+
+.panel-primary .panel-heading {
+  background-image: linear-gradient(to bottom, #CBB58D 0px, #BBA58D 100%);
+}
+/*  background-color: BBA58D;*/

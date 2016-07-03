@@ -1,0 +1,63 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>{{faq-title}}</title>
+  <link rel="stylesheet" href="/v3/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/v3/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/v3/css/main.css">
+  <script src="/v3/js/jquery.js"></script>
+  <script src="/v3/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    {{#navigation}}
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+	<div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">{{toggle}}</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+	</div>
+	<div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="index.html">{{home}}</a></li>
+            <li><a href="intro.html">{{getting-started}}</a></li>
+            <li class="active"><a href="#">{{faq}}</a></li>
+            <li><a href="designs.html">{{designs}}</a></li>
+            <li><a href="about.html">{{about}}</a></li>
+            <li><a href="http://diybookscanner.org/forum">{{forum}}</a></li>
+          </ul>
+	  <ul class="nav navbar-nav navbar-right">
+	    <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{language}} <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+		<li><a href="/faq.html">English</a></li>
+		<li><a href="/es/faq.html">Español</a></li>
+              </ul>
+            </li>
+	  </ul>
+	</div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    {{/navigation}}
+
+    <h1 class="main-heading">{{faq-header}}</h1>
+
+    {{#faq-list}}
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1>{{question}}</h1>
+      </div>
+      <div class="panel-body">
+        {{{answer}}}
+      </div>
+    </div>
+    {{/faq-list}}
+
+  </div>
+</body>
+</html>

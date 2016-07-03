@@ -1,0 +1,389 @@
+---
+navigation:
+  toggle: Toggle Navigation
+  home: Inicio
+  getting-started: Primeros pasos
+  faq: FAQ
+  designs: Diseños
+  about: Sobre nosotros
+  forum: Foro
+  language: Español
+
+# ###############################################################################
+
+index-title: DIY Book Scanner
+index-header:
+  -
+    title: Bienvenido a la comunidad de escáneres de libros DIY
+    text: "Somos una comunidad de personas que construyen escáneres de libros 'Do It Yourself'. Nos hicimos cargo de la preservación de libros, y la tomamos en nuestras propias manos. Somos el puente faltante entre las estanterías de tu biblioteca y tu e-reader. ¡Únete! Involúcrate <a href='http://www.instructables.com/id/Bargain-Price-Book-Scanner-From-A-Cardboard-Box/'>probando construir un escáner simple</a>, <a href='http://store.diybookscanner.org'>construyendo un kit</a>, o <a href='http://www.diybookscanner.org/forum/viewtopic.php?f=17&t=788'>explorando los límites de las tecnologías de digitalización</a>. Si tus dudas no pueden ser respondidas mediante la lectura, escribinos un correo electrónico a: diybookscanner [at] gmail.com."
+  -
+    title: ¿Qué es un escáner de libros?
+    text: "Un escáner de libros es cualquier dispositivo utilizado para digitalizar las páginas de un libro. Cada escáner de libros tiene tres partes. Las cámaras se utilizan para capturar las imágenes de cada página. Un controlador dispara las cámaras y salva las fotografías resultantes en algún lugar conveniente. La plataforma del escáner provee de un ambiente óptimo para la fotografía, mientras sostiene todas las piezas en su lugar."
+
+
+index-news-heading: Últimas noticias
+index-news:
+  -
+    title: El Archivista "Pluma" en Beta
+    media: "<img width='429' height='600' src='http://tenrec.builders/images/quill-1.JPG'>"
+    text: "El Archivista \"Pluma\" es un nuevo diseño de <a href='http://diybookscanner.org/archivist'>El Archivista</a> que utiliza vigas de aluminio en vez de madera contrachapada. Los primeros kits <a href='http://store.diybookscanner.org'>ya están disponibles</a>. Ver el asunto <a href='http://diybookscanner.org/forum/viewtopic.php?f=14&t=3268'>en el foro</a> para más información."
+  -
+    title: Pi Scan
+    media: "<iframe src='https://player.vimeo.com/video/150385938' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href='https://vimeo.com/150385938'>Tutorial de PiScan</a> de <a href='https://vimeo.com/user33752051'>Jonathon Duerig</a> en <a href='https://vimeo.com'>Vimeo</a>.</p>"
+    text: "Pi Scan es un software que corre en una Raspberry Pi para controlar las dos cámaras para escanear los libros. Pi Scan posee una interfaz dinámica y simplificada para el usuario, y un manejo robusto de los errores. Para más información, ver <a href='http://diybookscanner.org/forum/viewtopic.php?f=20&t=3264'>el post en el foro</a> o <a href='https://github.com/Tenrec-Builders/pi-scan'>la página del proyecto en Github</a>."
+
+
+index-body-header:
+  title: Plataformas de los escáneres de libros
+  text: "Los escáneres de libros pueden ser tan simples como una plataforma hecha con una caja de cartón, una cámara en un trípode, y tu mano como controlador. O pueden tener múltiples partes móviles con captura controlada por computadora y cámaras de alta resolución. Así es cómo se ve una plataforma típica de digitalización:"
+
+scanner-design-url: /v3/images/scanner-design-es.png
+
+index-body:
+  -
+    title: Iluminación
+    text: Aunque algunos escáneres dependen de la iluminación ambiente, una luz dedicada es importante para capturar buenas imágenes. Para hacerlo, se necesita que la iluminación sea fuerte y pareja. Las luces tienen que estar posicionadas para minimizar el brillo y los reflejos.
+  -
+    title: Cámaras
+    text: Cada cámara tiene que estar fijada de manera segura y alineada para apuntar directamente al centro de la página que está digitalizando. En la medida de lo posible, lo mejor es tener dos cámaras para capturar dos páginas al mismo tiempo.
+  -
+    title: Platina
+    text: La forma más fácil de evitar que las páginas se curven o se doblen en las imágenes es aplanándolas, presionándolas contra un vidrio o un acrílico. Aunque hay algunos algoritmos computacionales que pueden ayudar a corregir la deformación de las páginas luego de la captura, siempre es más confiable capturar las páginas planas directamente. 
+  -
+    title: Libro
+    text: El libro descansa en el centro de cualquier plataforma de digitalización. Se presiona alternativamente contra la bandeja para digitalizar y luego se lo aparta para dar vuelta la página.
+  -
+    title: Cuna
+    text: La cuna sirve para apoyar las portadas y el lomo del libro. Cualquier contacto con un libro provocará que se desgaste, y una cuna con forma de V puede minimizar el impacto de la digitalización.
+
+index-action: Comenzar
+
+# ###############################################################################
+
+
+about-title: Sobre el sitio de los escáneres de libros "Do It Yourself"
+contact-title: Información de contacto
+contact-text: Este sitio está mantenido por Jonathon Duerig y Scann. Para consultas generales, se puede enviar un correo electrónico a diybookscanner [at] gmail [punto] com (aceptamos consultas en castellano y portugués). Para consultas específicas sobre los kits de escáneres de libros, se puede enviar un correo electrónico a  info [at] tenrec [punto] builders.
+newsletter: "Si querés recibir novedades y actualizaciones sobre la comunidad y sobre los kits de escáners de libros, suscríbete al newsletter:"
+newsletter-placeholder: dirección de correo electrónico
+newsletter-subscribe: Suscribirse
+history-title: Historia
+history-body:
+  -
+    text: En el año 2009, Daniel Reetz publicó un tutorial paso a paso sobre cómo hacer un escáner de libros a partir de cámaras baratas y basura. Ese tutorial pionero desencadenó una avalancha de interés en el tema, y fue el inicio de esta comunidad.
+  -
+    text: En los años subsiguientes, nuestra comunidad exploró este nuevo campo de la preservación a escala personal. Gracias a nuestros esfuerzos, la digitalización de libros ya no es más el dominio exclusivo de las grandes instituciones y de las corporaciones multimillonarias.
+  -
+    text: En el 2015, Daniel se retiró del proyecto, pero la comunidad continúa. Seguimos produciendo nuevos diseños y más software. Paso a paso, estamos consiguiendo que cada vez sea más fácil para cualquiera en el mundo producir digitalizaciones de alta calidad de aquellos libros e historias que les son más queridos. 
+
+press-title: En la prensa
+press-body: "Con los años, se han escrito un montón de artículos de prensa sobre las promesas y las posibilidades de los escáneres de libros. Aquí hay links a algunos de ellos (en inglés):"
+press-list:
+  -
+    source: New York Times
+    url: "http://www.nytimes.com/2011/02/10/arts/10innovative.html?_r=1&src=twrhp"
+    title: La innovación bien lejos del laboratorio
+  -
+    source: BBC
+    url: "http://www.bbc.com/news/technology-14970879"
+    title: Las cabezas tecnológicas muestran proyectos "Do It Yourself" en la Feria de Makers de Nueva York
+  -
+    source: Wired
+    url: "http://www.wired.com/2009/12/diy-book-scanner/"
+    title: Los escáneres de libros DIY convierten tus libros en bytes
+  -
+    source: Blown to Bits
+    url: "http://www.bitsbook.com/2009/10/do-it-yourself-book-scanning/"
+    title: Digitalizando con escáneres de libros "Do It Yourself"
+  -
+    source: On the Commons
+    url: "http://www.onthecommons.org/magazine/diy-book-scanning-takes"
+    title: Despega la digitalización con escáneres de libros "Do It Yourself"
+  -
+    source: Ars Technica
+    url: "http://arstechnica.com/gadgets/2013/02/diy-book-scanning-is-easier-than-you-think/"
+    title: Cómo construimos un escáner de libros Do It Yourself con velocidades de 150 páginas por minuto
+    note:
+      text: "Note: La velocidad citada en el titular probablemente sea un error tipográfico. La velocidad promedio es de 20 páginas por minuto."
+  -
+    source: Makezine
+    url: "http://makezine.com/projects/make-41-tinkering-toys/diy-book-scanner/"
+    title: "The Archivist: Un escáner de libros 'Do It Yourself'"
+  -
+    source: Hackaday
+    url: "http://hackaday.com/2011/07/18/diy-book-scanner-processes-600-pageshour/"
+    title: El escáner de libros "Do It Yourself" procesa 600 páginas por hora
+  -
+    source: Business Insider
+    url: "http://www.businessinsider.com/daniel-reetz-diy-book-scanner-2013-2"
+    title: "Este escáner de libros está cambiando la infraestructura de la lectura"
+  -
+    source: Raspberry Pi Foundation
+    url: "https://www.raspberrypi.org/blog/raspberry-pi-controlled-book-scanner/"
+    title: Un escáner de libros controlado por una Raspberry Pi
+  -
+    source: Hackaday
+    url: "http://hackaday.com/2016/04/29/six-years-of-work-and-rationale-in-a-diy-book-scanner-documented/"
+    title: Seis años de trabajo y la lógica de un escáner de libros "Do It Yourself", documentados
+
+# ###############################################################################
+
+designs-title: Diseños de escáneres de libros
+showcase-title: Portfolio de diseños
+showcase-previous: Anterior
+showcase-next: Siguiente
+design-history-title: Historia
+design-history-text: La comunidad de escáneres de libros "Do It Yourself" empezó en el 2009 cuando Daniel Reetz creó un tutorial sobre cómo construir un escáner de libros a partir de 'basura y cámaras baratas'.
+
+design-history-list:
+  -
+    title: Tutorial del escáner a partir de basura y cámaras baratas (2009)
+    url: "http://www.instructables.com/id/DIY-High-Speed-Book-Scanner-from-Trash-and-Cheap-C/"
+    image: "/v3/images/gallery/trash.jpg"
+  -
+    title: Escáner de ferretería (2010)
+    url: http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=333
+    image: /v3/images/gallery/hardware.jpg
+  -
+    title: Escáner de Tercera Generación (2010)
+    url: http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=43&start=120
+    image: /v3/images/gallery/lasercut.jpg
+  -
+    title: Escáner "Hackerspace" (2012)
+    url: http://www.diybookscanner.org/forum/viewtopic.php?f=14&t=2596
+    image: /v3/images/gallery/hackerspace.jpg
+  -
+    title: El Archivista (2014)
+    url: http://diybookscanner.org/archivist
+    image: /v3/images/gallery/archivist.jpg
+  -
+    title: El Archivista "Pluma" (2016)
+    url: http://tenrec.builders/quill/guide
+    image: /v3/images/gallery/archivist-quill.jpg
+
+# ###############################################################################
+
+faq-title: FAQ
+faq-header: Preguntas Frecuentes
+
+faq-list:
+  -
+    question: ¿Por qué no cortar la encuadernación y utilizar un escáner con alimentador automático de hojas?
+    answer: |
+      <p>Esta es probablemente la forma más rápida de digitalizar un libro. Mientras mucha gente en la comunidad prefiere métodos más amables, otros intercambian tips y técnicas <a href="http://diybookscanner.org/forum/viewforum.php?f=30">la digitalización destructiva</a> aquí.</p>
+
+  -
+    question: ¿Qué tal un escáner completamente automático?
+    answer: |
+      <p>
+        Esta es un área de investigación activa. Algunas personas consiguieron algunos prototipos realmente impresionantes.
+      </p>
+      <div>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/Vx-jreooO9g" frameborder="0" allowfullscreen></iframe>
+        <p>Este diseño fue publicado por <strong>jck57</strong> en <a href="http://diybookscanner.org/forum/viewtopic.php?f=14&t=2776">este hilo del foro</a>.</p>
+      </div>
+      <div>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/pkZ8OfgRig0" frameborder="0" allowfullscreen></iframe>
+        <p>Este diseño fue publicado por <strong>moose</strong> en <a href="http://diybookscanner.org/forum/viewtopic.php?f=14&t=3125">este hilo del foro</a>.</p>
+      </div>
+      <p>También habría que echarle un vistazo al <a href="https://code.google.com/p/linear-book-scanner/">escáner lineal de libros</a> de Google como una solución posible.</p>
+      <p>
+        Si tenés más ideas sobre cómo resolver este problema, o querés mostrar tu propio diseño, por favor publicalo en el foro.
+      </p>
+
+  -
+    question: ¿No podemos dejárselo a Google y a Internet Archive para que resuelvan la digitalización?
+    answer: |
+      <p>
+        No. Estas grandes organizaciones tienen recursos limitados que dedicarán a sus prioridades. Si querés una copia del libro de recetas de tu tía abuela, escanearlo es tu problema.
+      </p>
+
+  -
+    question: ¿Es legal digitalizar mis libros?
+    answer: |
+      <p>
+        No lo sabemos. Algunos libros están en dominio público o son documentos personales. Otros están bajo copyright y las cláusulas de uso justo varían de país a país (algunos países ni siquiera tienen cláusulas de este tipo). Cada usuario es responsable por aprender y respetar las leyes de copyright de su jurisdicción.
+      </p>
+
+  -
+    question: ¿Qué cámaras debería usar?
+    answer: |
+      <p>
+        Actualmente recomendamos la cámara Canon PowerShot ELPH 160. Estas son cámaras de 20MP que funcionan con <a href="http://github.com/Tenrec-Builders/pi-scan">Pi Scan</a>, y todavía se fabrican.
+      </p>
+      <p>
+        Pero cualquier cámara que funcione con tu presupuesto y tu plataforma de digitalización también está bien. Por una discusión más completa sobre qué tipo de propiedades deberías tener en cuenta a la hora de comprar una cámara, conviene leer la sección de "Seleccionando cámaras" en la página de <a href="intro.html">Primeros pasos</a>.
+      </p>
+
+  -
+    question: ¿Puedo utilizar la cámara de mi teléfono o una cámara web?
+    answer: |
+      <p>Aunque es posible usar cualquier cámara, quizás no sea buena idea usar ese tipo de cámaras. Las cámaras de los celulares mejoran cada día, pero todavía les falta la capacidad de control que tenemos con las cámaras que soportan CHDK (Canon Hack Development Kit). La mayoría de las cámaras de celulares no permiten un protocolo de control remoto como PTP.</p>
+
+  -
+    question: ¿Realmente necesito dos cámaras?
+    answer: |
+      <p>La principal ventaja de utilizar una sola cámara es que se evita el costo de comprar dos cámaras. Otra razón para considerar la posibilidad de utilizar una sola cámara es que hay más opciones para controlarla, lo que reduce complejidades. Muchas cámaras tienen software de control de captura remota o vienen con accesorios llave en mano para tal fin.</p>
+      <p>Aunque estas ventajas a veces son tentadoras, recomendamos utilizar dos cámaras en la mayoría de los casos. Y mientras que es posible montar una plataforma que utilice una cámara sola, por lo general no es un buen negocio.</p>
+      <p>Un tipo de configuración para digitalizar con una sola cámara consiste en tomar la captura de una página por vez. La parte negativa de esto es que digitalizar lleva el doble de tiempo. Para digitalizar un libro entero, hay que pasar todas las páginas impares, y luego todas las páginas pares. Finalmente, las imágenes resultantes no están ordenadas de la manera adecuada, y tienen que ser reordenadas durante el post-proceso.</p>
+      <p>Otro tipo de plataforma para una sola cámara captura las dos páginas de un libro en una sola pasada. El problema en esta configuración es que sólo funciona si se mantiene el libro plano contra una mesa, lo que significa que se está poniendo un montón de presión y desgaste en el lomo del libro. Además, inevitablemente la página se curvará, especialmente en los márgenes interiores. Aunque hay algunas técnicas algorítmicas para corregir la deformación de las páginas luego de la captura, estas técnicas no funcionan en todas las páginas y son poco fiables.</p>
+
+  -
+    question: Quiero digitalizar libros de gran tamaño.
+    answer: |
+      <p>
+        Cuando se digitalizan libros de más de 40 cm de alto o más de 35 cm de ancho, se requieren técnicas especiales. No hay ninguna solución simple al problema, pero hay varios temas en el foro que exploran posibles respuestas al problema. Ver, por ejemplo, <a href="http://diybookscanner.org/forum/viewtopic.php?f=14&t=3240">este tema</a> y <a href="http://diybookscanner.org/forum/viewtopic.php?f=14&t=2976">este otro</a> para algunas ideas.
+      </p>
+
+  -
+    question: Soy torpe. ¿Puedo hacer igual un escáner de libros?
+    answer: |
+      <p>
+        No todo el mundo quiere perder años diseñando un escáner de libros, o meses construyendo uno. Si lo que querés es empezar a digitalizar por tu cuenta ahora mismo, quizás encuentres que <a href="http://store.diybookscanner.org">comprar un kit</a> es la mejor opción.
+      </p>
+
+# ###############################################################################
+
+intro-title: Introducción a los escáneres de libros Do It Yourself
+building-title: Construyendo una plataforma para digitalizar libros
+building-text: Hay muchas opciones para construir una platafoma. Se puede comprar un kit, construir un diseño ya establecido y probado por otras prsonas, o forjar uno propio y hacer algo completamente nuevo.
+
+building-list:
+
+  -
+    title: Kit de el "Archivista Pluma"
+    url: "http://store.diybookscanner.org"
+    text: "Los kits de el Archivista Pluma los vende y fabrica <a href='http://tenrec.builders'>Tenrec Builders</a>, para aquellos que quieren pasar más tiempo digitalizando y menos tiempo construyendo escáneres. Le permite a aquellos que no tienen ninguna habilidad especial o las herramientas necesarias, empezar rápidamente con digitalizaciones de alta calidad. Y si algo sale mal, se puede contactar a la gente de Tenrec Builders y ellos te ayudarán a resolver tu problema. La desventaja es que esta es la opción más cara de todas las que se listan en esta sección."
+    images: <img width="100%" src="/v3/images/gallery/archivist-quill.jpg">
+
+  -
+    title: Escáner de cartón
+    url: "http://www.instructables.com/id/Bargain-Price-Book-Scanner-From-A-Cardboard-Box/"
+    text: La opción más barata es construir tu escáner con una caja de cartón. También es una plataforma bastante fácil de construir. La calidad probablemente se vea resentida, pero en algunos casos es una buena idea hacerlo de esta forma.
+    images: <img width="100%" src="/v3/images/gallery/cardboard.jpg">
+
+  -
+    title: Escáner de ferretería
+    url: "http://www.diybookscanner.org/forum/viewtopic.php?f=1&t=333"
+    text: El escáner de ferretería es una alternativa más durable que el escáner de cartón. No se requiere ninguna parte especial, y todas las herramientas que se necesitan son herramientas estándar de carpintería. Si entrás a una ferretería, vas a salir de ella con todo lo que se necesita para construir este escáner. Se puede esperar obtener mejores digitalizaciones con esta plataforma que con la plataforma de cartón.
+    images: <img width="100%" src="/v3/images/gallery/hardware.jpg">
+
+  -
+    title: El Archivista desde cero
+    url: "http://diybookscanner.org/archivist"
+    text: El Archivista es la culimnación de seis años de diseño de escáneres. Te permite hacer digitalizaciones de alta calidad rápidamente. La iluminación es pareja y sin brillo y también es perfecta para digitalizar imágenes a color y papel brillante. Daniel Reetz liberó este diseño y lo dedicó al dominio público, así que se puede mirar su guía completa de diseño y construir uno desde cero.
+    images: <img width="100%" src="/v3/images/gallery/archivist.jpg">
+
+  -
+    title: Escáner de tubos de plástico
+    url: http://www.instructables.com/id/Book-Scanner-Low-cost-easy-to-make-1000-pages-an-h/
+    text: "En 2013, David Landin publicó un nuevo diseño utilizando tubos plásticos livianos de PVC como el principal material para construir la plataforma. Produjo videos describiendo cómo construir uno, y mucha gente lo ha hecho. Algunas personas también trabajaron para adaptar su diseño para permitir el manejo de libros de gran tamaño, que es aún un problema no resuelto para muchas otras plataformas de digitalización. El asunto del foro con el diseño de Landin <a href='http://diybookscanner.org/forum/viewtopic.php?f=14&t=2914'>está disponible aquí</a>."
+    images: <img width="80%" src="/v3/images/gallery/landin.jpg"><img width="80%" src="/v3/images/gallery/004.jpg">
+
+  -
+    title: Otros diseños
+    url: designs.html
+    text: "La posibilidad de digitalizar tus propios libros ha capturado la imaginación de las personas en todo el mundo. Decenas de personas publicaron sus ideas de diseño, fotos de sus proyectos, e incluso planos completos en <a href='http://diybookscanner.org/forum'>nuestro foro</a>. Pusimos muchas fotografías de escáneres en una <a href='designs.html'>galería</a> que permite entrar a cada uno de los temas originales del foro donde ese diseño en particular fue discutido. Podés navegar en los diseños y si encontrás uno que te gusta, podés hacer click para entrar al foro y leer las instrucciones para construirlo."
+
+  -
+    title: Hacer algo desde cero
+    url: "http://diybookscanner.org/forum"
+    text: "Quizás ninguno de los diseños actuales entra en tus necesidades específicas. O quizás tenés una idea nueva que va a cambiar todo. Si querés embarcarte en hacer un nuevo diseño, por favor compartí la crónica de tu aventura con nosotros en <a href='http://diybookscanner.org/forum'>el foro</a>. Otros miembros de la comunidad pueden proveerte motivación, apoyo y consejos. Asegúrate de leer <a href='http://diybookscanner.org/archivist'>la guía de diseño del Archivista</a> para la discusión de varios aspectos centrales en el diseño de escáneres."
+
+picking-cameras:
+  -
+    title: Seleccionando cámaras
+    text: |
+      <p>Hay una gran variedad de cámaras con las que se puede digitalizar. Si estás pensando utilizar <a href="http://github.com/Tenrec-Builders/pi-scan">Pi Scan</a> para controlar tus cámaras, entonces deberías usar cámaras Canon PowerShot ELPH 160. Pero si estás utilizando otra configuración, acá hay algunas líneas generales para seleccionar una cámara.</p>
+      <p>Seleccionar la cámara adecuada es muy importante. Tenemos años y años de debate en este tema. No hay pregunta que se repita con más frecuencia, así que nadie pensó en este tema más que la comunidad de escáneres de libros "Do It Yourself". Y tenemos un proceso de tres pasos para resolver este problema.</p>
+      <h2>Paso 1. ¿Cuántos megapíxeles necesitás?</h2>
+      <p>A. Necesitás medir los libros que querés digitalizar. El objetivo es encontrar aquel que tenga el tamaño más grande en promedio (no hay que seleccionar los valores más grandes y atípicos). Por ejemplo, la mayoría de los libros de texto tienen alrededor de 9 x 11 pulgadas (22.86cm x  27.94cm).  </p>
+      <p>B. Ahora, multiplicá ese tamaño por los PPP (pixeles por pulgada, o puntos por pulgada) que pretendés capturar. 300 es un mínimo seguro, ya que no se puede fallar si se va más allá de eso. Así que en nuestro ejemplo, sería: 9*300=2700. 11*300=3300. Necesitamos una iamgen que sea por lo menos de 2700x3300 = 8910000 píxeles, o sea, alrededor de 9 megapíxeles. Claro, eso es si utilizaras cada píxel perfectamente para capturar cada parte de la página, algo que NUNCA sucede. Por eso, para estar seguros, conviene agregar un 20-30% adicional para reemplazar los píxeles perdidos. En este caso, eso hace que 12 megapíxeles sea el mínimo para obtener una captura de al menos 300PPP (o DPI).</p>
+      <h2>Paso 2. ¿Cuánto control necesitás?</h2>
+      <p>Si solamente vas a digitalizar un libro, o si estás digitalizando un libro que sólo contiene información (opuesto al objetivo de capturar la apariencia física del libro), no se necesitan capturas tan buenas. Si la iluminación cambia, o las configuraciones de la cámara varían de captura a captura, aún vas a obtener algún tipo de resultado utilizable. Sin embargo, cuanto más perfecta necesites que sea la captura, y cuantas más páginas necesites capturar, más control vas a necesitar. Asumiendo entonces que querés hacer un buen trabajo y te importa más que el texto crudo en cada página, vas a necesitar una cámara que te permita controlar lo siguiente:</p>
+      <ol>
+        <li>Tiempo de exposición</li>
+        <li>Balance de blancos</li>
+        <li>Apertura</li>
+        <li>ISO</li>
+        <li>Flash prendido/apagado</li>
+        <li>Cualquier procesamiento personalizado de imagen (mejoras de color, etc)</li>
+        <li>Foco (idealmente que permita clausurar el foco)</li>
+        <li>Compensación de exposición</li>
+        <li>Zoom</li>
+      </ol>
+      <p>La mayoría de las DSLRs permiten todo este tipo de control; para las cámaras compactas o de bolsillo, sólo las cámaras Canon Powershot son capaces de correr <a href="http://chdk.wikia.com">CHDK</a>, que te da control sobre todos estos parámetros. Para ver si una cámara es capaz o no de correr CHDK, se puede <a href="http://www.mighty-hoernsche.de/">chequear en este listado</a>.</p>
+      <p>Un factor más a considerar: idealmente querés hacer correr estas cámaras con un adaptador AC (a la corriente eléctrica) en vez de con baterías. Tendrías que chequear previamente la disponbilidad de estos accesorios, o la posibilidad de reemplazarlos con <a href="http://www.instructables.com/id/How-to-Make-AC-Powered-Batteries-for-your-DC-Pow/">un accesorio que puedas hacer vos mismo</a>.</p>
+      <h2>Paso 3. ¿Cuánto dinero tenés?</h2>
+      <p>Si tenés un buen presupuesto, simplemente comprá cámaras DSLR y utilizá esas. Comprá la resolución más alta que puedas conseguir, y probá los distintos tipos de lentes que vienen con el cuerpo de la cámara, como punto de partida (generalmente sólo cuestan $50-100 USD más sobre el precio del cuerpo de la cámara y funcionan razonablemente bien.</p>
+      <p>Si estás con un presupuesto ajustado, las ya mencionadas cámaras Canon compactas o de bolsillo pueden ser compradas por presupuestos como $75 USD cada una, y, con CHDK, pueden producir imágenes de alta calidad. Son por lejos el mejor retorno de la inversión -que es sobre lo que trata toda esta movida de los escáneres de libros "do it yourself".</p>
+
+  -
+    title: CHDK y las cámaras Canon
+    text: |
+      <p>La mayoría de las cámaras compactas y económias no tienen una interfaz de software. Sólo pueden ser controladas manualmente o con un disparador mecánico. Pero un grupo de voluntarios ha desarrollado software que permite que las cámaras compactas de Canon sean controladas y configuradas de manera remota. Este software se llama <a href="http://chdk.wikia.com">CHDK</a> (Canon Hack Development Kit).</p>
+      <p>El CHDK se instala en una tarjeta SD, que luego se inserta en la cámara. Cuando la cámara se inicia, CHDK ya está corriendo. Dado que el CHDK no hace cambios permanentes a la cámara, siempre se puede remover la tarjeta SD que tiene el CHDK instalado para correr la cámara normalmente.</p>
+      <p>El CHDK es un pre-requisito esencial para los controladores de software que se listan más abajo. Los controladores corren en una PC o en una Raspberry Pi y se comunican con el CHDK que está corriendo en las cámaras a través de los puertos USB. CHDK provee muchas capacidades mejoradas, incluyendo la capacidad de controlar la cámara vía USB, capturar fotografías, y luego transferir las imágenes resultante vía USB al controlador.</p>
+      <p>Como CHDK es tan útil y no hay ningún equivalente a CHDK para otro tipo de cámaras compactas, de bolsillo o de "apunta y dispara", la mayoría de los usuarios en el foro utilizan cámaras Canon en sus plataformas. Si utilizás otro tipo de cámaras compactas, la única opción de control es algún tipo de gatillo mecánico o manual.</p>
+
+intro-info-table:
+  -
+    title: Controlando las cámaras
+    intro: La primera tarea para digitalizar libros es capturar una imagen de cada página, y luego ubicar esas imágenes en un lugar conveniente. Hay varias maneras de ejecutar esta tarea.
+    items:
+      -
+        title: Pi Scan
+        url: "http://github.com/Tenrec-Builders/pi-scan"
+        text: |
+          <p>Pi Scan es un dispositivo de digitalización que corre en una Raspberry Pi 2 (o modelo B). Soporta las Canon PowerShot A2500 y las Canon PowerShot ELPH 160 (testeado; puede soportar otras, pero es a tu propio riesgo). Se conectan las cámaras en la Raspberry junto con un monitor, mouse, teclado (opcional), y un dispositivo de almacenamiento adicional (puede ser una tarjeta SD o un disco externo). Configura y dispara las dos cámaras, guardando las imágenes en el dispositivo de almacenamiento adicional. Una vez que la digitalización está terminada, el dipositivo de almacenamiento tendrá una carpeta llena de imágenes digitalizadas.</p>
+
+      -
+        title: Spreads
+        url: "http://www.diybookscanner.org/forum/viewforum.php?f=35"
+        text: |
+          <p>Spreads también corre sobre una Raspberry Pi, y funciona también en varias distribuciones de Linux. Trabaja con muchas cámaras compatibles con CHDK. Spreads se controla a través de la red con una interfaz web. Configura y controla las cámaras, y las guarda en "flujos de trabajo". Cuando un flujo de trabajo está completo, se puede descargar un archivo comprimido con las imágenes, o guardarlas en un dispositivo de almacenamiento externo.</p>
+
+      -
+        title: TwoCamControl
+        url: "http://www.diybookscanner.org/forum/viewtopic.php?f=20&t=3082"
+        text: |
+          <p>Si tenés una computadora con Windows, se puede correr el script de TwoCamControl directamente en la computadora. Funciona con muchas cámaras compatibles con CHDK. Esto significa que no es necesario comprar ningún hardware adicional o preocuparse por interactuar con él. Alcanza con especificar un directorio para guardar las imágenes.</p>
+
+      -
+        title: Gatillo o disparador mecánico
+        url: "http://diybookscanner.org/forum/search.php?keywords=bicycle+brake"
+        text: |
+          <p>Si ninguna de las opciones de software funcionan, aún hay esperanzas de una solución ergonómica. Simplemente se necesita una forma de replicar un dedo presionando contra el botón de disparo de la cámara. La forma más común de hacer esto es re-utilizar los sistemas de freno de las bicicletas. Los frenos de las bicicletas funciona a través de presión neumática. Cuando se aprieta la palanca, esto incrementa la presión en un tubo. Esta presión puede ser utilizada para empujar un pistón posicionado directamente sobre el botón de disparo de la cámara.</p>
+          <p>Luego de capturar las imágenes utilizando un disparador mecánico, todavía se necesita copiar las imágenes de la cámara a la computadora para post-procesarlas. Si es posible, lo mejor es utilizar un cable de datos para hacer esto. De lo contrario será necesario desmontar las cámaras de la plataforma para acceder a las tarjetas SD que están dentro de la cámara.</p>
+
+      -
+        title: Disparo manual
+        text: |
+          <p>Cuando todo lo demás falla, se pueden disparar las cámaras a mano. Fueron diseñadas para operar de este modo. Pero hacer esto cientos o miles de veces puede ser doloroso. Es difícil diseñar una plataforma que permita una operación ergonómica para disparar las cámaras manualmente. Y aún peor, al tocar la cámara para hacer el disparo, se introduce una vibración en el sistema justo en el momento en que se quiere tomar la fotografía.</p>
+
+  -
+    title: Images to eBooks
+    intro: "Luego de la captura, el resultado será una carpeta llena de imágenes. Convertir esas imágenes en un libro electrónico se llama 'post-proceso'. Los pasos que efectivamente hay que tomar para esto depende de las necesidades específicas de cada uno. Alguna gente quiere comprimir todo cuanto más sea posible, y extraer el texto del libro utilizando OCR (reconocimiento óptico de caracteres). Otros simplemente quieren cortar cada imagen de la página y combinarlas en un PDF. Hay un manual (en inglés) que tiene varias secciones que describen este proceso, llamado <a href='https://en.flossmanuals.net/e-book-enlightenment/'>Enlightenment</a>. También hay algunas herramientas de software que permiten realizar esas tareas. Aquí hay algunas:"
+    items:
+
+      -
+        title: Scan Tailor
+        url: "http://www.diybookscanner.org/forum/viewforum.php?f=21"
+        text: |
+          <p>Una herramienta con todas las aplicaciones que puede hacer distintos tipos de manipulación de las imágenes de manera masiva, incluyendo rotación de imágenes, corte sobre contenido, alineación, corrección de las deformaciones, y binarización.</p>
+          <iframe src="https://player.vimeo.com/video/143104880" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p><a href="https://vimeo.com/143104880">Tutorial de Scan Tailor en castellano</a> por <a href="https://vimeo.com/user21814988">Scann</a> en <a href="https://vimeo.com">Vimeo</a>.</p>
+
+      -
+        title: Book Scan Wizard
+        url: "http://www.diybookscanner.org/forum/viewforum.php?f=22"
+        text: |
+          <p>Una herramienta de post-proceso que permite rotar, cortar, corregir las deformaciones, y más. Está orientada sobre todo a usuarios más hábiles.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/GbMgpsVA1Ss" frameborder="0" allowfullscreen></iframe>
+
+      -
+        title: Opciones comerciales
+        text: |
+          <p>Abbyy Finereader, Adobe Acrobat, y Omnipage son todas alternativas pagas (y privativas). En ese caso, es necesario revisar sus manuales para saber si se ajustan a tus necesidades de digitalización.</p>
+
+intro-forum-button: ¿Preguntas? ¿Ideas? ¡Únete al foro!

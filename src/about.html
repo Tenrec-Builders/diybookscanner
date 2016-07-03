@@ -1,0 +1,100 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>{{about-title}}</title>
+  <link rel="stylesheet" href="/v3/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/v3/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/v3/css/main.css">
+  <script src="/v3/js/jquery.js"></script>
+  <script src="/v3/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    {{#navigation}}
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+	<div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">{{toggle}}</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+	</div>
+	<div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="index.html">{{home}}</a></li>
+            <li><a href="intro.html">{{getting-started}}</a></li>
+            <li><a href="faq.html">{{faq}}</a></li>
+            <li><a href="designs.html">{{designs}}</a></li>
+            <li class="active"><a href="#">{{about}}</a></li>
+            <li><a href="http://diybookscanner.org/forum">{{forum}}</a></li>
+          </ul>
+	  <ul class="nav navbar-nav navbar-right">
+	    <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{language}} <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+		<li><a href="/about.html">English</a></li>
+		<li><a href="/es/about.html">Español</a></li>
+              </ul>
+            </li>
+	  </ul>
+	</div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    {{/navigation}}
+
+    <h1 class="main-heading">{{contact-title}}</h1>
+
+    <p>{{contact-text}}</p>
+
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+      /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+      We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+      <form action="//diybookscanner.us8.list-manage.com/subscribe/post?u=699da9ea70faed60281769587&amp;id=bcf872944c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<div id="mc_embed_signup_scroll">
+	  <label for="mce-EMAIL">{{newsletter}}</label>
+	  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{newsletter-placeholder}}" required>
+	  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	  <div style="position: absolute; left: -5000px;"><input type="text" name="b_699da9ea70faed60281769587_bcf872944c" tabindex="-1" value=""></div>
+	  <div class="clear"><input type="submit" value="{{newsletter-subscribe}}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	</div>
+      </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+
+    <h1 class="main-heading">{{history-title}}</h1>
+
+    <div class="showcase-item">
+      <img src="/v3/images/gallery/trash.jpg">
+    </div>
+    {{#history-body}}
+    <p>{{text}}</p>
+    {{/history-body}}
+
+    <h1 class="main-heading">{{press-title}}</h1>
+
+    <p>{{press-body}}</p>
+
+    <ul class="list-unstyled">
+      {{#press-list}}
+      <li>
+        <strong>{{source}}:</strong>
+        <a href="{{url}}">{{title}}</a>
+        {{#note}}
+          <small>{{text}}</small>
+        {{/note}}
+      </li>
+      {{/press-list}}
+    </ul>
+    <br/><br/>
+  </div>
+</body>
+</html>
